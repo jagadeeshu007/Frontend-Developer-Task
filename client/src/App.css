@@ -1,0 +1,64 @@
+/* Parent container */
+.Main {
+  display: flex;
+  height: 100vh;       /* full screen */
+}
+
+/* Image side */
+.ImageBox {
+  width: 50%;
+}
+
+.ImageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Form side */
+.Main-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;       
+  background-color: #130535;
+ 
+  font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+.Main-1 h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: yellowgreen;
+}
+
+.Main-1 label {
+  width: 60%;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+  color: aqua;
+}
+
+.Main-1 input {
+  width: 60%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.Main-1 p {
+  margin-top: 55px;
+  font-size: 14px;
+  color: rgb(228, 139, 7);
+}
+
+.Sign {
+  color: greenyellow;
+  cursor: pointer;
+  font-weight: bold;
+}
